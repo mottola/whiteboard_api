@@ -5,7 +5,9 @@ A place for developers to blog and connect
 
 ### Prerequisites
 NVM
+
 Node 7.7.4+
+
 PostgreSQL
 
 ```
@@ -27,13 +29,13 @@ cd whiteboard_api
 npm install
 ```
 
-Copy `example.env` to .env
+Copy `example.env` to `.env`
 
 ```
 cp example.env .env
 ```
 
-Edit .env based on your desired port and psql setup
+Edit `.env` based on your desired port and psql setup
 
 
 Run the DB setup script
