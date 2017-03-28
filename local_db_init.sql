@@ -34,7 +34,7 @@ CREATE TABLE comments (
 );
 
 INSERT INTO users (username, email, password)
-  VALUES ('admiral-ram', 'mottola.rick@gmail.com', 'password');
+  VALUES ('admiral-faker', 'fakeemail@fake.com', 'password');
 
 INSERT INTO posts (author, title, body)
   VALUES (1, 'test title', 'test body');
